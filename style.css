@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+}
+
+canvas {
+  display: block;
+}
+
+.test {
+  -webkit-mask-image: url(img/webb-mirror.svg);
+  mask-image: url(img/webb-mirror.svg);
+  mask-repeat: no-repeat; 
+}
